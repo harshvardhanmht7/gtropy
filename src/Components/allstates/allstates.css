@@ -1,0 +1,15 @@
+.statetable thead{
+ text-align:left;
+}
+.statetable td,th{
+
+    padding: 0 1em 0 1em;
+    
+}
+.statetable{
+    font-size: 85%;
+}
+.statetable th{
+    font-size: 1rem;
+    color: red;
+}

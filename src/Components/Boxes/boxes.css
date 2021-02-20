@@ -1,0 +1,37 @@
+.box-container{
+    display: flex;
+}
+
+.confirmed,.recovered,.deceased,.active{
+
+    margin-left: 5%;
+    width: 15%;
+    height: auto;
+    font-size: 90%;
+}
+
+.confirmed{
+    background-color:#f8a1d1;
+    border-radius: 5%;
+    color: #822659;
+    padding: 1%;
+}
+
+.active{
+    background-color:#ccf2f4;
+    border-radius: 5%;
+    color: #1687a7;
+    padding: 1%;
+}
+.recovered{
+    background-color:#bbdfc8;
+    border-radius: 5%;
+    color: #295939;
+    padding: 1%;
+}
+.deceased{
+    background-color:#e8eae6;
+    border-radius: 5%;
+    color: #433d3c;
+    padding: 1%;
+}

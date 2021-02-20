@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+}
+
+.first{
+width:  45%;
+    background-color:#ffffff;
+    margin: 2%  2%; 
+    border-radius: 2%;
+    padding: 3%;
+}
+.second{
+    
+    flex-grow: 1;
+    margin: 2% 2%;
+    background-color: #ffffff;
+    border-radius: 2%;
+    padding: 3%;
+}
+
+
+.App{
+    background-color: #e3f6f5;
+}
+
