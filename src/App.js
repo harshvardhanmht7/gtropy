@@ -29,12 +29,12 @@ componentDidMount(){
     this.state.t1=new Date().getTime();
     res=objCodec.encode_object( res, 'utf8', this.state.salt );
     var input = new Buffer(res);
-    var output = LZUTF8.compress(input);
+    var output = LZUTF8.compress(input);                        // Compressed here.
     
      output = LZUTF8.decompress(output);
     res=output;
 
-    res=objCodec.decode_object( res, 'utf8', this.state.salt );    
+    res=objCodec.decode_object( res, 'utf8', this.state.salt );    //Decompressed here
 
     this.state.t2=new Date().getTime();
          let t=this.state.t2-this.state.t1;
